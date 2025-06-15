@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* about page */
+/* ======================================================================================================================
+================================================================================================================== */
+.about-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background-color: #000;
+}
+
+.about-hero {
+  text-align: center;
+  padding: 80px 20px 40px;
+  background-color: #000;
+}
+
+.about-hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.about-hero p {
+  max-width: 700px;
+  margin: 0 auto 25px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.hire-btn {
+  background-color: #28a745;
+  border: none;
+  padding: 12px 24px;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hire-btn:hover {
+  background-color: #218838;
+}
+
+.breadcrumb {
+  background-color: #1e1e1e;
+  padding: 12px 30px;
+  font-size: 16px;
+}
+
+.breadcrumb .home {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+.breadcrumb .divider {
+  margin: 0 8px;
+  color: gray;
+}
+
+.breadcrumb .active {
+  font-weight: bold;
+}
+
+.about-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 30px;
+  flex-wrap: wrap;
+  background-color: #000;
+}
+
+.about-profile img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
